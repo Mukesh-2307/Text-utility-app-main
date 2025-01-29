@@ -35,9 +35,6 @@ This is a React-based Text Utility application that provides various text manipu
 ## Preview
 You can check out the live preview of the project [here] https://text-utility-app-main.vercel.app/
 
-## Screenshots
-(Add screenshots of your project here if available)
-
 ## Contributions
 Feel free to fork this repository and submit pull requests for improvements!
 
