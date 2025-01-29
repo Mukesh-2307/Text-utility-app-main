@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Odibee+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+#pic {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    z-index: 999;
+}
+
+.lightModePic {
+    background: rgb(36, 37, 130);
+    background: linear-gradient(338deg, rgba(36, 37, 130, 1) 21%, rgba(73, 74, 151, 1) 45%, rgba(123, 123, 180, 1) 70%, rgba(255, 255, 255, 1) 94%);
+}
+
+.lightModeText {
+    color: rgb(36,37,130);
+}
+
+.darkModeText {
+    color: rgb(0, 0, 0);
+}
+
+.darkModePic {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(338deg, rgba(0, 0, 0, 1) 25%, rgba(66, 66, 66, 1) 50%, rgba(171, 171, 171, 1) 75%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+#text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 0;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 5rem;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+#text p{
+    width: 400px;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
